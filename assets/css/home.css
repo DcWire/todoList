@@ -1,0 +1,122 @@
+body {
+    background-color: grey;
+}
+
+div {
+    margin: -20px auto 50px auto;
+    height: 50%;
+    width: 70%;
+    background-color: white;
+}
+
+#heading {
+    text-align: center;
+    font-family: serif;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#main_table {
+    width: 100%;
+}
+
+#desc_table {
+    width: 100%;
+    
+}
+
+.box {
+    width: 95%;
+    border: none;
+}
+.text:focus {
+    background-color: red;
+}
+
+#desc_table:hover {
+    background-color: rgb(219, 215, 215);
+}
+
+#desc_table:hover .box{
+    /* color: rgb(223, 215, 215); */
+    background-color: rgb(219, 215, 215);
+}
+
+#table1:hover {
+    background-color: rgb(219, 215, 215);
+}
+
+#table1:hover .box{
+    /* color: rgb(223, 215, 215); */
+    background-color: rgb(219, 215, 215);
+}
+
+#table2:hover {
+    background-color: rgb(219, 215, 215);
+}
+
+#table2:hover .box {
+    background-color: rgb(219, 215, 215);
+}
+
+.box:focus {
+    outline: white;
+}
+
+#table1 {
+    width: 100%;
+}
+
+#table2 {
+    width: 100%;
+}
+
+.other {
+    width: 100%;
+    font-size: 10px;
+}
+
+.text {
+    margin-bottom: -3px;
+    font-size: 10px;
+}
+
+.task_list {
+    margin: 50px auto 0px;
+}
+
+.right {
+    text-align: right;
+}
+
+.left, .right {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.list {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(187, 187, 236);
+}
+
+.desc {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.cat {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.date {
+    font-size: 10px;
+    padding: 15px;
+}
+
+/* .completed {
+} */
